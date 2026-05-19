@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Smart Storage DApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>⚡ Smart Storage DApp</h1>
+
+    <div class="card">
+        <h2>Stored Value</h2>
+        <p id="value">0</p>
+
+        <div class="buttons">
+            <button onclick="increment()">+</button>
+            <button onclick="decrement()">−</button>
+        </div>
+
+        <button class="refresh" onclick="getValue()">Refresh</button>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
